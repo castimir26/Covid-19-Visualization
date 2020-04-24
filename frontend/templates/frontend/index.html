@@ -17,253 +17,44 @@
   <link href="/static/css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
-<body id="page-top">
 
+<body>
   <div id="wrapper" >
     <div id="wrapper" class="flex-grow-1">
 
-       <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+      <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
 
-         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-           <div class="sidebar-brand-icon rotate-n-15">
-             <i class="fas fa-laugh-wink"></i>
-           </div>
-           <div class="sidebar-brand-text mx-3">Covid-19 World Statistics <sup>2</sup></div>
-         </a>
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+          <div class="sidebar-brand-icon rotate-n-15">
+            <i class="fas fa-laugh-wink"></i>
+          </div>
+          <div class="sidebar-brand-text mx-3">Covid-19 World Statistics <sup>2</sup></div>
+        </a>
 
-         <div class="sidebar-divider my-0">
-        </div>
+        <div class="sidebar-divider my-0">
+       </div>
 
-         <li class="nav-item active">
-           <a class="nav-link" href="index.html">
-             <i class="fas fa-fw fa-tachometer-alt"></i>
-             <span>Dashboard</span></a>
-         </li>
-
-
-
-       </ul>
-
-       <div id="content-wrapper" class="d-flex flex-column">
-
-
-         <div id="content" class="container-fluid">
-         <div class="row">
-
-           <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
-
-             <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-               <i class="fa fa-bars"></i>
-             </button>
-
-             <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-               <div class="input-group">
-                 <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2"/>
-                 <div class="input-group-append">
-                   <button class="btn btn-primary" type="button">
-                     <i class="fas fa-search fa-sm"></i>
-                   </button>
-                 </div>
-
-               </div>
-
-             </form>
-
-             <ul class="navbar-nav ml-auto">
-
-
-               <li class="nav-item dropdown no-arrow d-sm-none">
-                 <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                   <i class="fas fa-search fa-fw"></i>
-                 </a>
-
-                 <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
-                   <form class="form-inline mr-auto w-100 navbar-search">
-                     <div class="input-group">
-                       <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2"/>
-                       <div class="input-group-append">
-                         <button class="btn btn-primary" type="button">
-                           <i class="fas fa-search fa-sm"></i>
-                         </button>
-                       </div>
-
-                     </div>
-                   </form>
-                 </div>
-               </li>
-
-
-             </ul>
-
-           </nav>
-           </div>
-           </div>
-           <div class="row">
-
-
-             <div class="col-xl-3 col-md-6 mb-4">
-               <div class="card border-left-primary shadow h-100 py-2">
-                 <div class="card-body">
-                   <div class="row no-gutters align-items-center">
-                     <div class="col mr-2">
-                       <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">World Confirmed Cases</div>
-                       <div class="h5 mb-0 font-weight-bold text-gray-800">350,000</div>
-                     </div>
-                     <div class="col-auto">
-                       <i class="fas fa-calendar fa-2x text-gray-300"></i>
-                     </div>
-                   </div>
-                 </div>
-               </div>
-             </div>
-
-
-             <div class="col-xl-3 col-md-6 mb-4">
-               <div class="card border-left-success shadow h-100 py-2">
-                 <div class="card-body">
-                   <div class="row no-gutters align-items-center">
-                     <div class="col mr-2">
-                       <div class="text-xs font-weight-bold text-success text-uppercase mb-1">World Recovered Cases</div>
-                       <div class="h5 mb-0 font-weight-bold text-gray-800">100,000</div>
-                     </div>
-                     <div class="col-auto">
-                       <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
-                     </div>
-                   </div>
-                 </div>
-               </div>
-             </div>
-
-
-             <div class="col-xl-3 col-md-6 mb-4">
-               <div class="card border-left-info shadow h-100 py-2">
-                 <div class="card-body">
-                   <div class="row no-gutters align-items-center">
-                     <div class="col mr-2">
-                       <div class="text-xs font-weight-bold text-info text-uppercase mb-1">World Deaths</div>
-                       <div class="row no-gutters align-items-center">
-                         <div class="col-auto">
-                           <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">69,000</div>
-                         </div>
-                         <div class="col">
-                           <div class="progress progress-sm mr-2">
-                             <div class="progress-bar bg-info" role="progressbar" ></div>
-                           </div>
-                         </div>
-                       </div>
-                     </div>
-                     <div class="col-auto">
-                       <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
-                     </div>
-                   </div>
-                 </div>
-               </div>
-             </div>
-
-
-             <div class="col-xl-3 col-md-6 mb-4">
-               <div class="card border-left-warning shadow h-100 py-2">
-                 <div class="card-body">
-                   <div class="row no-gutters align-items-center">
-                     <div class="col mr-2">
-                       <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">World Active Cases</div>
-                       <div class="h5 mb-0 font-weight-bold text-gray-800">250,000</div>
-                     </div>
-                     <div class="col-auto">
-                       <i class="fas fa-comments fa-2x text-gray-300"></i>
-                     </div>
-                   </div>
-                 </div>
-               </div>
-             </div>
-           </div>
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Dashboard</span></a>
+        </li>
 
 
 
-           <div class="row">
+      </ul>
+      <div id="content-wrapper" class="d-flex flex-column">
 
 
-             <div class="col-xl-12 col-lg-7">
-               <div class="card shadow mb-4">
-
-                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                   <h6 class="m-0 font-weight-bold text-primary">Country Covid-19 Case Overview</h6>
-                   <div class="dropdown no-arrow">
-                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                       <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                     </a>
-                     <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                       <div class="dropdown-header">Dropdown Header:</div>
-                       <a class="dropdown-item" href="#">Change Country</a>
-                       <a class="dropdown-item" href="#">Download to CSV</a>
-                       <div class="dropdown-divider"></div>
-                       <a class="dropdown-item" href="#">Download to PDF</a>
-                     </div>
-                   </div>
-                 </div>
-
-                 <div class="card-body">
-                   <div class="chart-area">
-                     <canvas id="myAreaChart"></canvas>
-                   </div>
-                 </div>
-               </div>
-             </div>
-
-
-             <div class="col-xl-12 col-lg-5">
-               <div class="card shadow mb-4">
-
-                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                   <h6 class="m-0 font-weight-bold text-primary">Covid-19 Cases for [your country]</h6>
-                   <div class="dropdown no-arrow">
-                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                       <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                     </a>
-                     <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                       <div class="dropdown-header">Dropdown Header:</div>
-                       <a class="dropdown-item" href="#">Action</a>
-                       <a class="dropdown-item" href="#">Another action</a>
-                       <div class="dropdown-divider"></div>
-                       <a class="dropdown-item" href="#">Something else here</a>
-                     </div>
-                   </div>
-                 </div>
-
-                 <div class="card-body">
-                   <div class="chart-pie pt-4 pb-2">
-                     <canvas id="myPieChart"></canvas>
-                   </div>
-                   <div class="mt-4 text-center small">
-                     <span class="mr-2">
-                       <i class="fas fa-circle text-primary"></i> Confirmed
-                     </span>
-                     <span class="mr-2">
-                       <i class="fas fa-circle text-success"></i> Recovered
-                     </span>
-                     <span class="mr-2">
-                       <i class="fas fa-circle text-info"></i> Deaths
-                     </span>
-                     <span class="mr-2">
-                       <i class="fas fa-circle text-info"></i> Active
-                     </span>
-                   </div>
-                 </div>
-               </div>
-             </div>
-           </div>
-           <div class="row" class="col-lg-3 right-align">
-               <div id="app">
-               </div>
-           </div>
-
-           </div>
+        <div id="content" class="container-fluid">
+      <div id="app">
+      </div>
+    </div>
   </div>
 </div>
-
 </div>
+
 </body>
 {% load static %}
 <script src="{% static "frontend/main.js" %}"></script>

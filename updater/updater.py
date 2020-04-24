@@ -4,5 +4,5 @@ from updater import updateData
 
 def start():
     scheduler = BackgroundScheduler()
-    scheduler.add_job(updateData.update_data, 'interval', minutes=1440)
+    scheduler.add_job(updateData.update_data, 'interval', minutes=1)
     scheduler.start()
